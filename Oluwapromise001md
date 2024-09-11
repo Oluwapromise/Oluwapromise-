@@ -1,0 +1,8 @@
+# Initial declaration of the variable
+name = "bIG"
+print("Initial name:", name)
+
+# Redeclaration of the variable with a new value
+name = "G"
+print("Updated name:", name)
+
