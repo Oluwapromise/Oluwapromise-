@@ -1,0 +1,27 @@
+def troubleshoot_computer():
+    print("Welcome to the Computer Troubleshooting Program!")
+    
+    # Check for power issues
+    power_issue = input("Is your computer not turning on? (yes/no): ").strip().lower()
+    if power_issue == "yes":
+        print("\nTroubleshooting Power Issues:")
+        print("1. Check if the power cable is plugged in.")
+        print("2. Ensure the power outlet is working.")
+        print("3. Try a different power cable.")
+        print("4. Check for signs of life (lights, sounds).")
+        return
+    
+        # Check for connectivity issues
+    connectivity_issue = input("Are you having trouble connecting to the internet? (yes/no): ").strip().lower()
+    if connectivity_issue == "yes":
+        print("\nTroubleshooting Connectivity Issues:")
+        print("1. Check if your Wi-Fi is turned on.")
+        print("2. Restart your router.")
+        print("3. Forget and reconnect to the network.")
+        print("4. Check for any service outages in your area.")
+        return
+    
+    print("\nIf you are experiencing other issues, please consult a professional technician.")
+
+if __name__ == "__main__":
+    troubleshoot_computer()
